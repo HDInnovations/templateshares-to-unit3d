@@ -1,6 +1,6 @@
 <?php
 
-namespace HDVinnie\TemplateSharesToUnit3d\Commands;
+namespace HDInnovations\TemplateSharesToUnit3d\Commands;
 
 use App\User;
 use App\Torrent;
@@ -9,7 +9,7 @@ use InvalidArgumentException;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Database\ConnectionInterface;
-use HDVinnie\TemplateSharesToUnit3d\Imports;
+use HDInnovations\TemplateSharesToUnit3d\Imports;
 
 class FromTemplateShares extends Command
 {

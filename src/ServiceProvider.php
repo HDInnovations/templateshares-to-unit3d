@@ -1,6 +1,6 @@
 <?php
 
-namespace HDVinnie\TemplateSharesToUnit3d;
+namespace HDInnovations\TemplateSharesToUnit3d;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 

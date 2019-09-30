@@ -1,5 +1,5 @@
 {
-    "name": "HDVinnie/templateshares-to-unit3d",
+    "name": "hdinnovations/templateshares-to-unit3d",
     "type": "library",
     "description": "An artisan package to import a TemplateShares database into UNIT3D.",
     "license": "MIT",
@@ -22,13 +22,13 @@
     },
     "autoload": {
         "psr-4": {
-            "HDVinnie\\TemplateSharesToUnit3d\\": "src"
+            "HDInnovations\\TemplateSharesToUnit3d\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "HDVinnie\\TemplateSharesToUnit3d\\ServiceProvider"
+                "HDInnovations\\TemplateSharesToUnit3d\\ServiceProvider"
             ]
         }
     }

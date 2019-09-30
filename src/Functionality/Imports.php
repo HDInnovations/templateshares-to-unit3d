@@ -1,6 +1,6 @@
 <?php
 
-namespace HDVinnie\TemplateSharesToUnit3d\Functionality;
+namespace HDInnovations\TemplateSharesToUnit3d\Functionality;
 
 use ErrorException;
 use Illuminate\Database\Connection;
