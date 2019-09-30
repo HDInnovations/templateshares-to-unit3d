@@ -6,7 +6,7 @@ An artisan package to import a templateshares database into UNIT3D.
 Via Composer
 
 ```bash
-$ composer require HDVinnie/templateshares-to-unit3d --dev
+$ composer require hdinnovations/templateshares-to-unit3d --dev
 ```
 
 To install, just:
