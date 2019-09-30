@@ -9,7 +9,7 @@ use InvalidArgumentException;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Database\ConnectionInterface;
-use HDInnovations\TemplateSharesToUnit3d\Imports;
+use HDInnovations\TemplateSharesToUnit3d\Functionality\Imports;
 
 class FromTemplateShares extends Command
 {
