@@ -1,0 +1,35 @@
+{
+    "name": "HDVinnie/templateshares-to-unit3d",
+    "type": "library",
+    "description": "An artisan package to import a TemplateShares database into UNIT3D.",
+    "license": "MIT",
+    "keywords": [
+        "Laravel",
+        "UNIT3D",
+        "TemplateShares",
+        "Database",
+        "Import"
+    ],
+    "authors": [
+        {
+            "name": "HDInnovations (HDVinnie)",
+            "homepage": "https://github.com/HDInnovations",
+            "role": "Founder, Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "HDVinnie\\TemplateSharesToUnit3d\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HDVinnie\\TemplateSharesToUnit3d\\ServiceProvider"
+            ]
+        }
+    }
+}
