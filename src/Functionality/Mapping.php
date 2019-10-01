@@ -45,7 +45,7 @@ class Mapping
             'image' => $data->avatar ?? null,
             'title' => $data->title ?? null,
             'about' => $data->about ?? null,
-            'signature' => $data-signature ?? null,
+            'signature' => $data->signature ?? null,
             'active' => $data->enabled ?? true,
             'invites' => $data->invites ?? 0,
             'last_login' => Carbon::createFromTimeString($data->last_login),
