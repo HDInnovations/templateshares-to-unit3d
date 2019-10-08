@@ -41,7 +41,7 @@ class Mapping
             'email' => $data->email ?? null,
             'uploaded' => $data->uploaded ?? 0,
             'downloaded' => $data->downloaded ?? 0,
-            'seedbonus' => $data->seedbonus ?? 0,
+            'seedbonus' => str_replace('-', '', $data->seedbonus) ?? 0,
             'image' => $data->avatar ?? null,
             'title' => $data->title ?? null,
             'about' => $data->about ?? null,
