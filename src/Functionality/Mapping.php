@@ -48,8 +48,8 @@ class Mapping
             'signature' => $data->signature ?? null,
             'active' => 1,
             'invites' => $data->invites ?? 0,
-            'last_login' => Carbon::createFromTimeString($data->added),
-            'created_at' => Carbon::createFromTimeString($data->added),
+            'last_login' => Carbon::now(),
+            'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
         ];
     }
