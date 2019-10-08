@@ -48,7 +48,7 @@ class Mapping
             'signature' => $data->signature ?? null,
             'active' => 1,
             'invites' => $data->invites ?? 0,
-            'last_login' => Carbon::createFromTimeString($data->last_login),
+            'last_login' => Carbon::createFromTimeString($data->added),
             'created_at' => Carbon::createFromTimeString($data->added),
             'updated_at' => Carbon::now(),
         ];
