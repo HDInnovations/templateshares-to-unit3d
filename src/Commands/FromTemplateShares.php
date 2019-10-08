@@ -2,8 +2,8 @@
 
 namespace HDInnovations\TemplateSharesToUnit3d\Commands;
 
-use App\User;
-use App\Torrent;
+use App\Models\User;
+use App\Models\Torrent;
 use ErrorException;
 use InvalidArgumentException;
 use Illuminate\Console\Command;
